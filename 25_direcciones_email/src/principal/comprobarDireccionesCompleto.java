@@ -6,7 +6,9 @@ public class comprobarDireccionesCompleto {
 		
 		
 		
-		String emails=   "aaaa@gmail.com,bbb@tel.es,ccc@gmail.es,ddd@gmail.com,eeeee@gmail.net,ffff@gmail.org";
+		String emails=   """aaaa@gmail.com,bbb@tel.es
+                         ,ccc@gmail.es,ddd@gmail.com,eeeee@gmail.net
+                         ,ffff@gmail.org"""";
 		
 		//mostrar cuantas direccionesde cada domino hay
 		
