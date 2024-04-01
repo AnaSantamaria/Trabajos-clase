@@ -13,6 +13,7 @@ public class LoteriaReHecho {
 			System.out.println(n.split("-")[0]);
 		}
 	}
+}
 
 	static void ordenarFacturacion(String[] datos) {
 		String aux;
@@ -30,3 +31,5 @@ public class LoteriaReHecho {
 			}
 		}
 	}
+		
+	

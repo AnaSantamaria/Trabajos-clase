@@ -24,7 +24,7 @@ public class Presupuestos {
 		 
 		 for(var coche:coches ) {
 			 int pos=coche.indexOf("-");//posicion separador
-			 String marca=coche.substring(0,pos);
+			 var marca=coche.substring(0,pos);
 			 double precio=Double.parseDouble(coche.substring(pos+1, coche.lenght()));
 			 
 			 if(presupuesto>=precio) {
