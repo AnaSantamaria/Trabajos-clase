@@ -8,18 +8,14 @@ public class Cuadricula10x10 {
 
 		int[][] cuadricula = new int[10][10];// mi array bidimensional
 		
-		cuadricula=crearCuadricula(cuadricula);
+		cuadricula=crearCuadricula(cuadricula); //invoco el método
 
-		imprimir(cuadricula);
+		imprimir(cuadricula); //invoco el método imprimir
 		
 	}
 	
 	
-	
-	/** Método para crear cuadricula
-	 * @param int [][] cuadricula
-	 * @return
-	 */
+	//Metodo para crear cuadrícula
 	static int[][] crearCuadricula(int[][] paramCuadricula) {
 		
 		Random rand = new Random();
