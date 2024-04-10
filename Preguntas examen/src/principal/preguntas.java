@@ -174,7 +174,37 @@ suponiendo que se introuce una letra:
 //////////////////////////////////////////
 
 
+//main(){
+	//int x=10;
+	//int y=3;
+	//sumar(x,y);
+	//print(x);//10
+//}
 
+//void sumar(int a, int b){
+	//a=a+b;
+///} 
+
+
+/////////////////////////////////////////////
+
+
+//Given:
+//class Test{
+	//var datas=new ArrayList<Integer>();//// mal porque var solo se puede usar en variables locales
+	//public void print(){
+		//System.out.println(datas.get(0));
+	//}
+//}
+
+//Test t=new Test();
+//t.print();
+
+
+//a.) 0
+//b.) null
+//c.) error de compilación
+//d.) excepción NullPointerException 
 
 
 
